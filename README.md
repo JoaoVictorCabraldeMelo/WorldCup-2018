@@ -1,6 +1,6 @@
 # WorldCup-2018
 
-A Copa do Mundo já está ai por que não jogar um jogo no seu tempo livre ou enquanto você assiste aos jogas de sua seleção favorita.
+A Copa do Mundo já está ai por que não jogar um jogo no seu tempo livre ou enquanto você assiste aos jogos de sua seleção favorita.
 
 The World Cup is here so why not play some game in your free time while you watch the games of your favorite squad.
 
