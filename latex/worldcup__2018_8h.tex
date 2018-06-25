@@ -1,0 +1,165 @@
+\hypertarget{worldcup__2018_8h}{}\section{worldcup\+\_\+2018.\+h File Reference}
+\label{worldcup__2018_8h}\index{worldcup\+\_\+2018.\+h@{worldcup\+\_\+2018.\+h}}
+
+
+Jogo utilizando árvore binaria da Copa do Mundo na Rússia 2018.  
+
+
+This graph shows which files directly or indirectly include this file\+:
+% FIG 0
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structTeam}{Team}
+\item 
+struct \hyperlink{structnode}{node}
+\item 
+struct \hyperlink{structelement}{element}
+\item 
+struct \hyperlink{structlist}{list}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structnode}{node} {\bfseries t\+\_\+node}\hypertarget{worldcup__2018_8h_a763c26827422f3a252a84a9e7b69b17b}{}\label{worldcup__2018_8h_a763c26827422f3a252a84a9e7b69b17b}
+
+\item 
+typedef struct \hyperlink{structelement}{element} {\bfseries l\+\_\+element}\hypertarget{worldcup__2018_8h_abd47886cca9deccfca340a5d24758149}{}\label{worldcup__2018_8h_abd47886cca9deccfca340a5d24758149}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structnode}{t\+\_\+node} $\ast$ {\bfseries node\+\_\+create} ()\hypertarget{worldcup__2018_8h_aa5a270ce6b9d8a25b369160b4b55a373}{}\label{worldcup__2018_8h_aa5a270ce6b9d8a25b369160b4b55a373}
+
+\item 
+\hyperlink{structTeam}{Team} $\ast$ {\bfseries team\+\_\+create} (char $\ast$\+\_\+nome, int \+\_\+ataque, int \+\_\+defesa, int \+\_\+resistencia, int velocidade)\hypertarget{worldcup__2018_8h_a2c340a20132c8bb8021660a212868db0}{}\label{worldcup__2018_8h_a2c340a20132c8bb8021660a212868db0}
+
+\item 
+void {\bfseries team\+\_\+free} (\hyperlink{structTeam}{Team} $\ast$team)\hypertarget{worldcup__2018_8h_a9e40414f60d7ed832b5813dfc46e818b}{}\label{worldcup__2018_8h_a9e40414f60d7ed832b5813dfc46e818b}
+
+\item 
+\hyperlink{structnode}{t\+\_\+node} $\ast$ {\bfseries tree\+\_\+create} ()\hypertarget{worldcup__2018_8h_abdeaa407ded2a6f896818d861f6b819f}{}\label{worldcup__2018_8h_abdeaa407ded2a6f896818d861f6b819f}
+
+\item 
+void {\bfseries tree\+\_\+free} (\hyperlink{structnode}{t\+\_\+node} $\ast$tree)\hypertarget{worldcup__2018_8h_ab431dbf555fc7684c6cf1a2737a7ebcd}{}\label{worldcup__2018_8h_ab431dbf555fc7684c6cf1a2737a7ebcd}
+
+\item 
+void {\bfseries tree\+\_\+print\+\_\+preorder} (\hyperlink{structnode}{t\+\_\+node} $\ast$tree)\hypertarget{worldcup__2018_8h_abf6da14731c0d3856d4f4558126db4dc}{}\label{worldcup__2018_8h_abf6da14731c0d3856d4f4558126db4dc}
+
+\item 
+\hyperlink{structTeam}{Team} $\ast$ {\bfseries match} (\hyperlink{structTeam}{Team} $\ast$team\+\_\+one, \hyperlink{structTeam}{Team} $\ast$team\+\_\+two, int attribute)\hypertarget{worldcup__2018_8h_af26ce6691b4849854671304c840c2cc4}{}\label{worldcup__2018_8h_af26ce6691b4849854671304c840c2cc4}
+
+\item 
+\hyperlink{structnode}{t\+\_\+node} $\ast$ {\bfseries tree\+\_\+node} (\hyperlink{structnode}{t\+\_\+node} $\ast$root)\hypertarget{worldcup__2018_8h_a564774f732f772dd0946f3a7a8bc7196}{}\label{worldcup__2018_8h_a564774f732f772dd0946f3a7a8bc7196}
+
+\item 
+int {\bfseries height} (\hyperlink{structnode}{t\+\_\+node} $\ast$root)\hypertarget{worldcup__2018_8h_ad208211c474039020a079d1f3c4a1ab1}{}\label{worldcup__2018_8h_ad208211c474039020a079d1f3c4a1ab1}
+
+\item 
+void {\bfseries create\+\_\+worldcup} (\hyperlink{structnode}{t\+\_\+node} $\ast$root)\hypertarget{worldcup__2018_8h_add50cec317c319ecf098d76ba5835f45}{}\label{worldcup__2018_8h_add50cec317c319ecf098d76ba5835f45}
+
+\item 
+\hyperlink{structelement}{l\+\_\+element} $\ast$ {\bfseries alloc\+\_\+element} (\hyperlink{structTeam}{Team} $\ast$new\+\_\+team)\hypertarget{worldcup__2018_8h_a92440315774dcaba32a960fa73b54a12}{}\label{worldcup__2018_8h_a92440315774dcaba32a960fa73b54a12}
+
+\item 
+\hyperlink{structlist}{list} $\ast$ {\bfseries alloc\+\_\+list} ()\hypertarget{worldcup__2018_8h_a0ce3e800bde2a1c323e9dc4a0b9a831d}{}\label{worldcup__2018_8h_a0ce3e800bde2a1c323e9dc4a0b9a831d}
+
+\item 
+void {\bfseries free\+\_\+list} (\hyperlink{structlist}{list} $\ast$lista)\hypertarget{worldcup__2018_8h_ac61ae66583fe3932694827c47ef21e31}{}\label{worldcup__2018_8h_ac61ae66583fe3932694827c47ef21e31}
+
+\item 
+void {\bfseries insere\+\_\+team\+\_\+lista} (\hyperlink{structTeam}{Team} $\ast$new\+\_\+team, \hyperlink{structlist}{list} $\ast$lista)\hypertarget{worldcup__2018_8h_a5e8089ea809172d562c62b0f5f7a6214}{}\label{worldcup__2018_8h_a5e8089ea809172d562c62b0f5f7a6214}
+
+\item 
+\hyperlink{structlist}{list} $\ast$ {\bfseries create\+\_\+random\+\_\+list} ()\hypertarget{worldcup__2018_8h_a4c7b8ec9bcc220f04dc8c2c98f447bec}{}\label{worldcup__2018_8h_a4c7b8ec9bcc220f04dc8c2c98f447bec}
+
+\item 
+int {\bfseries print\+\_\+list} (\hyperlink{structlist}{list} $\ast$lista)\hypertarget{worldcup__2018_8h_ad0b00e26b65ec1d740be253b6c5c5e0a}{}\label{worldcup__2018_8h_ad0b00e26b65ec1d740be253b6c5c5e0a}
+
+\item 
+\hyperlink{structTeam}{Team} $\ast$ {\bfseries mostra\+\_\+time\+\_\+escolhido} (\hyperlink{structlist}{list} $\ast$lista, int nro\+\_\+escolhido)\hypertarget{worldcup__2018_8h_a9cc0749a14366ce797d744a74e9c060f}{}\label{worldcup__2018_8h_a9cc0749a14366ce797d744a74e9c060f}
+
+\item 
+void {\bfseries printa\+\_\+team} (\hyperlink{structTeam}{Team} $\ast$team)\hypertarget{worldcup__2018_8h_a7c2fdc3d27067ba924958c015f8451fb}{}\label{worldcup__2018_8h_a7c2fdc3d27067ba924958c015f8451fb}
+
+\item 
+void {\bfseries insere\+\_\+times\+\_\+arvore} (\hyperlink{structlist}{list} $\ast$lista, \hyperlink{structnode}{t\+\_\+node} $\ast$root, int contador)\hypertarget{worldcup__2018_8h_a68c5731629d04c1e69554d7c22d34340}{}\label{worldcup__2018_8h_a68c5731629d04c1e69554d7c22d34340}
+
+\item 
+int {\bfseries procura\+\_\+player} (\hyperlink{structTeam}{Team} $\ast$team, \hyperlink{structnode}{t\+\_\+node} $\ast$root, int atributo)\hypertarget{worldcup__2018_8h_a5ebbe7611e66410431bfa62d31d0b82f}{}\label{worldcup__2018_8h_a5ebbe7611e66410431bfa62d31d0b82f}
+
+\item 
+int {\bfseries escolhe\+\_\+atributo} ()\hypertarget{worldcup__2018_8h_aa9d43d6b53c9dd17759ec8055ee2583e}{}\label{worldcup__2018_8h_aa9d43d6b53c9dd17759ec8055ee2583e}
+
+\item 
+int {\bfseries make\+\_\+random} ()\hypertarget{worldcup__2018_8h_afec840960f8950db798dada4f92f48b3}{}\label{worldcup__2018_8h_afec840960f8950db798dada4f92f48b3}
+
+\item 
+void {\bfseries combat} (\hyperlink{structTeam}{Team} $\ast$team\+\_\+1, \hyperlink{structTeam}{Team} $\ast$team\+\_\+2, int atributo)\hypertarget{worldcup__2018_8h_a29e6811cdf54b85d01dacf687ae5dc6c}{}\label{worldcup__2018_8h_a29e6811cdf54b85d01dacf687ae5dc6c}
+
+\item 
+void {\bfseries procura\+\_\+adversario} (\hyperlink{structTeam}{Team} $\ast$player, \hyperlink{structnode}{t\+\_\+node} $\ast$root)\hypertarget{worldcup__2018_8h_a826cb4a58e8b860b710ced4ce67c0408}{}\label{worldcup__2018_8h_a826cb4a58e8b860b710ced4ce67c0408}
+
+\item 
+void {\bfseries seu\+\_\+time} (\hyperlink{structTeam}{Team} $\ast$player, int atributo\+\_\+escolhido)\hypertarget{worldcup__2018_8h_a0b5c1ff4c76248ca4cb50314dcc96172}{}\label{worldcup__2018_8h_a0b5c1ff4c76248ca4cb50314dcc96172}
+
+\item 
+void {\bfseries continua} ()\hypertarget{worldcup__2018_8h_a743c52af56ce4dc0ed1bdc08c8b3b3f3}{}\label{worldcup__2018_8h_a743c52af56ce4dc0ed1bdc08c8b3b3f3}
+
+\item 
+int {\bfseries deseja\+\_\+continuar} (\hyperlink{structnode}{t\+\_\+node} $\ast$root, \hyperlink{structlist}{list} $\ast$lista)\hypertarget{worldcup__2018_8h_a8b3d82b3986deb26f295bce8c7ae41c1}{}\label{worldcup__2018_8h_a8b3d82b3986deb26f295bce8c7ae41c1}
+
+\item 
+void {\bfseries player\+\_\+na\+\_\+arvore} (\hyperlink{structnode}{t\+\_\+node} $\ast$root, \hyperlink{structTeam}{Team} $\ast$player, \hyperlink{structlist}{list} $\ast$times\+\_\+jogando)\hypertarget{worldcup__2018_8h_aacdd1c898a024c6fb0a6880929dad25d}{}\label{worldcup__2018_8h_aacdd1c898a024c6fb0a6880929dad25d}
+
+\item 
+int {\bfseries verifica\+\_\+player\+\_\+jogando} (\hyperlink{structlist}{list} $\ast$times\+\_\+jogando, \hyperlink{structTeam}{Team} $\ast$player)\hypertarget{worldcup__2018_8h_a49110499ce1a6831947828078b82e61c}{}\label{worldcup__2018_8h_a49110499ce1a6831947828078b82e61c}
+
+\item 
+int {\bfseries verifica} (\hyperlink{structnode}{t\+\_\+node} $\ast$root, \hyperlink{structTeam}{Team} $\ast$player)\hypertarget{worldcup__2018_8h_a7bbf84c9ff72d115971de0e8854f868b}{}\label{worldcup__2018_8h_a7bbf84c9ff72d115971de0e8854f868b}
+
+\item 
+void {\bfseries menu\+\_\+principal} ()\hypertarget{worldcup__2018_8h_ae3a600065cfe3e0105b6209e35d20264}{}\label{worldcup__2018_8h_ae3a600065cfe3e0105b6209e35d20264}
+
+\item 
+void {\bfseries display\+\_\+entrada} ()\hypertarget{worldcup__2018_8h_adfc87b7b6157f71ef72afcb8b29bf208}{}\label{worldcup__2018_8h_adfc87b7b6157f71ef72afcb8b29bf208}
+
+\item 
+void {\bfseries display\+\_\+times} ()\hypertarget{worldcup__2018_8h_a81d10c02e3551db39cb4ed0b077b24b1}{}\label{worldcup__2018_8h_a81d10c02e3551db39cb4ed0b077b24b1}
+
+\item 
+void {\bfseries display\+\_\+vitoria} ()\hypertarget{worldcup__2018_8h_a811e264777f2836223cfb69858c1e803}{}\label{worldcup__2018_8h_a811e264777f2836223cfb69858c1e803}
+
+\item 
+void {\bfseries display\+\_\+derrota} ()\hypertarget{worldcup__2018_8h_a7f0e99a927bd2f8db353061a2bac1275}{}\label{worldcup__2018_8h_a7f0e99a927bd2f8db353061a2bac1275}
+
+\item 
+void {\bfseries display\+\_\+campeao} ()\hypertarget{worldcup__2018_8h_a9f9bc8e8b7495c83170ac81f66bb7c35}{}\label{worldcup__2018_8h_a9f9bc8e8b7495c83170ac81f66bb7c35}
+
+\item 
+void {\bfseries display\+\_\+oitavas} ()\hypertarget{worldcup__2018_8h_a9520ad4d0fa1ecc8079bea2dbeba84ee}{}\label{worldcup__2018_8h_a9520ad4d0fa1ecc8079bea2dbeba84ee}
+
+\item 
+void {\bfseries display\+\_\+quartas} ()\hypertarget{worldcup__2018_8h_ac416dc4ad4307baac6a575e33f292d28}{}\label{worldcup__2018_8h_ac416dc4ad4307baac6a575e33f292d28}
+
+\item 
+void {\bfseries display\+\_\+semi} ()\hypertarget{worldcup__2018_8h_a69332752f445ba9d538525bd3fc6412a}{}\label{worldcup__2018_8h_a69332752f445ba9d538525bd3fc6412a}
+
+\item 
+void {\bfseries display\+\_\+final} ()\hypertarget{worldcup__2018_8h_af4095bd797bca63cdbf0f6d8ca5475ed}{}\label{worldcup__2018_8h_af4095bd797bca63cdbf0f6d8ca5475ed}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Jogo utilizando árvore binaria da Copa do Mundo na Rússia 2018. 
+
+\begin{DoxyAuthor}{Author}
+João Victor Cabral de Melo 
+
+Night\+Off 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+18 June 2018 
+\end{DoxyDate}
