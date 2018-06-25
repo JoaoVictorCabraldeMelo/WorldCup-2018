@@ -4,7 +4,7 @@ A Copa do Mundo já está ai por que não jogar um jogo no seu tempo livre ou en
 
 The World Cup is here so why not play some game in your free time while you watch the games of your favorite squad.
 
-![WorldCup Logo](/Imagens/fifa-world-cup.jpg)
+![WorldCup Logo](../Imagens/fifa-world-cup.jpg)
 
 ## How to Compile:
 
