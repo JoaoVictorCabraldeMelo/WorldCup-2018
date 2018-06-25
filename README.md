@@ -4,7 +4,7 @@ A Copa do Mundo já está ai por que não jogar um jogo no seu tempo livre ou en
 
 The World Cup is here so why not play some game in your free time while you watch the games of your favorite squad.
 
-![Alt Text](https://on.rt.com/xgoopw)
+![Alt Text](https://i.imgur.com/zYMH5Uc.png)
 
 ## How to Compile:
 
